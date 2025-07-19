@@ -39,17 +39,9 @@
 }
  
 .about-page,
+.project-page,
 .contact-page {
-    .text-zone {
-        position: absolute;
-        left: 10%;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 35%;
-        vertical-align: middle;
-        display: table-cell;
-        max-height: 90%;
-
+    
         h1 {
             font-size: 53px;
             font-family: 'Coolvetica';
@@ -92,10 +84,21 @@
         min-width: fit-content;
         animation: pulse 2s;
     }
+
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 35%;
+        vertical-align: middle;
+        display: table-cell;
+        max-height: 90%;
+    }
+
         .text-animate-hover {
             &:hover {
                 color: #fff;
             }
         }
     }
-}
