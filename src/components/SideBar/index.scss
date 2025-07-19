@@ -98,7 +98,7 @@
         
         ul {
            position: absolute;
-           bottom: -275px;
+           top: 410px;
            width: 100%;
            display: block;
            padding: 1px 0;
@@ -108,12 +108,13 @@
 
             li a {
                 padding: 1px 0;
-                display: absolute;
+                display: block;
                 font-size: 20px;
                 line-height: 15px;
                 
                 &:hover svg {
                     color: #ffd700;
+                    opacity: 1;
                 }
             }
           }
