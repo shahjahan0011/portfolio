@@ -5,6 +5,12 @@
         "title": "LavaLock",
         "description": "Java, OpenCV",
         "url": "https://github.com/shahjahan0011/Lavalock"
+        },
+        {
+        "cover": "laligaog2.png",
+        "title": "LaLiga Insights",
+        "description": "React, SpringBoot, PostgreSQL",
+        "url": "https://laliga-insights.vercel.app"
         }
     ]
 }
