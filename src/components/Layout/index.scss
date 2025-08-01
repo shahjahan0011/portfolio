@@ -77,12 +77,25 @@
         }
     
     p {
-        font-style: 13px;
+        font-style: italic;
+        font-size: 16px;
         color: #fff;
         font-family: sans-serif;
-        font-weight: 300;
         min-width: fit-content;
-        animation: pulse 2s;
+        animation: pulse 3s;
+    }
+
+    .about-tech {
+        // line-height: 2;
+        padding: 6px 20px;
+        border-radius: 8px;
+        background-color: #115173;
+
+        p {
+            
+            font-size: 18px;
+            font-weight: 600;
+        }
     }
 
     .text-zone {

@@ -27,13 +27,19 @@ const About = () => {
                 <h1>
                     <AnimatedLetters
                         letterClass={letterClass}
-                        strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
+                        strArray={"About me".split("")}
                         idx={15} />
                 </h1>
-                <p>
-                    I am a Computer Engineering student with a passion for technology and innovation.
-                    I enjoy solving complex problems and building efficient systems.
-                </p>
+                <p>A software developer, a student, a moutaineer, and a learner.</p>
+                {/* <p>I have fun solving complex problems and building efficient systems.</p> */}
+                <br/>
+                <div className='about-tech'>
+                <p>Languages: Java, C++, Python, ABAP.</p>
+                <p>Web Dev: HTML, CSS, JavaScript.</p>
+                <p>Frameworks: Spring Boot, ReactJS.</p>
+                <p>Database: MySQL, PostgreSQL.</p>
+                <p>Tools: Git, PostmanAPI.</p>
+                </div>
                 </div>        
         </div>
 
