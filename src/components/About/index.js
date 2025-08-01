@@ -34,7 +34,7 @@ const About = () => {
                 {/* <p>I have fun solving complex problems and building efficient systems.</p> */}
                 <br/>
                 <div className='about-tech'>
-                <p>Languages: Java, C++, Python, ABAP.</p>
+                <p>Language: Java, C++, Python, ABAP.</p>
                 <p>Web Dev: HTML, CSS, JavaScript.</p>
                 <p>Frameworks: Spring Boot, ReactJS.</p>
                 <p>Database: MySQL, PostgreSQL.</p>
