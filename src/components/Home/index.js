@@ -37,7 +37,7 @@ const Home = () => {
                 <br />
                 <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={22} />
                 </h1>
-                <h2> Computer Engineering, 2028 @ University of British Columbia </h2>
+                <h2> Computer Engineering, 2027 @ University of British Columbia </h2>
                 <Link to="/contact" className="flat-button">CONTACT ME</Link>
             </div>
             <Logo />
