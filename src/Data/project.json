@@ -1,16 +1,28 @@
 {
     "project": [
         {
+        "cover": "laligaog2.png",
+        "title": "LaLiga Insights",
+        "description": "React, SpringBoot, PostgreSQL",
+        "url": "https://laliga-insights.vercel.app"
+        },
+        {
+        "cover": "potato.png",
+        "title": "Disease Detection",
+        "description": "Tensorflow, FastAPI, GCP",
+        "url": "https://github.com/shahjahan0011/potato-disease"
+        },
+        {
         "cover": "lavalock.jpeg",
         "title": "LavaLock",
         "description": "Java, OpenCV",
         "url": "https://github.com/shahjahan0011/Lavalock"
         },
         {
-        "cover": "laligaog2.png",
-        "title": "LaLiga Insights",
-        "description": "React, SpringBoot, PostgreSQL",
-        "url": "https://laliga-insights.vercel.app"
+        "cover": "traffic.png",
+        "title": "StopPi&Go",
+        "description": "C++, RaspberryPi, Arduino",
+        "url": "https://www.youtube.com/watch?v=f90YzP5t0F4"
         }
     ]
 }

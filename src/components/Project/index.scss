@@ -124,8 +124,9 @@
         }
 
         .image-box{
+            flex: 1 1 50%;
             height: 200px;
-            max-width: calc(50% - 10px);
+            max-width: 100%;
         }
     }
 }
