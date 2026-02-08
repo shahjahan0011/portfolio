@@ -3,7 +3,7 @@ import './index.scss';
 import LogoJ from '../../assets/images/logoJ.png';
 import LogoSubtitle from '../../assets/images/logo_sub.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faEnvelope, faHome, faSuitcase, faUser, faClose } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faHome, faSuitcase, faUser, faClose } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { useState } from 'react';
 
