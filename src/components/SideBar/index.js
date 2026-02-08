@@ -27,9 +27,6 @@ const Sidebar = () => {
                 <NavLink onClick={() => setShowNav(false)} exact="true" activeclassname="active" className="project-link" to="/project">
                     <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
                 </NavLink>
-                // <NavLink onClick={() => setShowNav(false)} exact="true" activeclassname="active" className="contact-link" to="/contact">
-                //     <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
-                // </NavLink>
                 <FontAwesomeIcon 
                 onClick={() => setShowNav(false)}
                 icon={faClose}
