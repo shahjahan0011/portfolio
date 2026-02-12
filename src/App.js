@@ -1,6 +1,6 @@
 
 import './App.scss';
-import { Routes,Route } from 'react-router-dom';
+import { Routes,Route, Navigate } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './components/Home';
 import About from './components/About';
@@ -15,6 +15,8 @@ function App() {
       <Route index element={<Home/>} />
       <Route path="about" element={<About />} />
       <Route path="project" element={<Project />} />
+
+      <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
     </Routes>
     <Analytics />
